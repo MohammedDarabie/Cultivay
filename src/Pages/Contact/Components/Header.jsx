@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Landing from "../../../assets/kids-playing-table.png";
 import Logo from "../../../assets/Group541.png";
 import Logo1 from "../../../assets/Group650.png";
@@ -9,7 +10,12 @@ import Location from "../../../assets/Location.png";
 import Instagram from "../../../assets/Instagram.png";
 import Exclusion from "../../../assets/Exclusion.png";
 import Group776 from "../../../assets/Group776.png";
+import Menu from "../../../assets/menu.svg";
 const Header = () => {
+  const [hidden, setHidden] = useState(false);
+  const toggleMenu = () => {
+    setHidden(!hidden);
+  };
   return (
     <div>
       {/* Header */}
@@ -30,21 +36,27 @@ const Header = () => {
         />
 
         {/* Nav Section */}
-        <div className="flex justify-between items-center z-10 w-[80%] mx-auto">
-          <img src={Logo} alt="Student Logo" className="h-16 p-2" />
-          <nav className="list-none flex justify-between space-x-10 text-white font-bold">
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>SERVICES</li>
-            <li>WHO WE ARE</li>
-            <li>CONTACT</li>
-          </nav>
-        </div>
+         {/* Nav Section */}
+      <div className="flex justify-between items-center z-10 md:w-[90%] lg:w-[80%] mx-auto">
+        <img src={Logo} alt="Student Logo" className="h-16 p-2  md:mx-0" />
+        
+        {/* Toggling menu visibility on smaller screens */}
+        <img src={Menu} alt="Menu" className="h-10 text-white md:hidden" onClick={toggleMenu} />
+
+        {/* Navigation items */}
+        <nav className={`list-none ${hidden ? 'hidden' : 'flex'} flex-col md:flex-row justify-between space-x-0 md:space-x-8 lg:space-x-10 text-white font-bold`}>
+          <li>HOME</li>
+          <li>ABOUT</li>
+          <li>SERVICES</li>
+          <li>WHO WE ARE</li>
+          <li>CONTACT</li>
+        </nav>
+      </div>
 
         {/* Landing Body Section */}
         <div className="w-[75%] mx-auto mt-40 mb-72 z-10 space-y-10">
-          <img src={Logo1} className="w-44" />
-          <h1 className="text-8xl font-bold text-custom-beige">
+          <img src={Logo1} className="lg:w-44" />
+          <h1 className=" text-6xl md:text-7xl lg:text-8xl font-bold text-custom-beige">
             CONTACT
             <br /> US
           </h1>
@@ -61,7 +73,7 @@ const Header = () => {
           <div className="w-[80%] space-y-24 mx-auto ">
             {/*  Fields */}
             <div className="flex-1 w-[60%] mx-auto">
-              <ul className="grid grid-cols-2 mx-auto gap-5">
+              <ul className="grid lg:grid-cols-2 justify-center mx-auto gap-5">
                 {/*--------------- First Feild ---------------*/}
                 <div className="flex items-center space-x-4">
                   <div
@@ -137,7 +149,7 @@ const Header = () => {
               </ul>
             </div>
             {/* MAP */}
-            <div className="w-auto h-[500px]">
+            <div className="w-auto md:h-[300px] lg:h-[500px]">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3577.6568945035597!2d50.203817211275876!3d26.272796776938645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49e82086e1ffb5%3A0x6607b67ca02dbd00!2sAl%20Khoubar%2C%20Al%20Khobar%20Al%20Janubiyah%2C%20Al%20Khobar!5e0!3m2!1sen!2ssa!4v1703703893259!5m2!1sen!2ssa"
                 className="w-full h-full rounded-2xl"
@@ -150,15 +162,15 @@ const Header = () => {
           </div>
         </div>
         <div className="flex justify-center items-center my-20 ">
-          <img src={Logo} className="mx-auto h-48" />
+          <img src={Logo} className="mx-auto w-48 md:w-52 lg:w-80" />
         </div>
       </main>
       <img src={Exclusion} className="" />
-      <footer className="flex bg-custom-green  justify-evenly items-center p-5">
+      <footer className="flex flex-col md:flex-row bg-custom-green  justify-evenly items-center p-5">
         <div className="">
           <img src={Group776} className="w-40" />
         </div>
-        <nav className="font-bold space-x-36 text-white">
+        <nav className="font-bold flex flex-col md:flex-row space-x-0 md:space-x-8 lg:space-x-10  text-white">
           <a>INFO@CULTIVAY.COM</a>
           <a>CULTIVAY.SA</a>
           <a>LINKEDIN</a>
