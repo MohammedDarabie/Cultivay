@@ -10,6 +10,10 @@ module.exports = {
         "custom-green": "#7a9280", // First custom color
         "custom-beige": "#f2d499", // Second custom color
       },
+      fontFamily: {
+        sans: ["Roboto", "sans-serif"],
+        secondary: ["Open Sans", "sans-serif"],
+      },
     },
   },
   variants: {},

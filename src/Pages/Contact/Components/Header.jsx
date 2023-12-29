@@ -11,13 +11,17 @@ import Instagram from "../../../assets/Instagram.png";
 import Exclusion from "../../../assets/Exclusion.png";
 import Group776 from "../../../assets/Group776.png";
 import Menu from "../../../assets/menu.svg";
+import instagram from "../../../assets/instagram.svg";
+import linkedin from "../../../assets/linkedin-circle.svg";
+import mail from "../../../assets/mail.svg";
+import website from "../../../assets/website.svg";
 const Header = () => {
   const [hidden, setHidden] = useState(false);
   const toggleMenu = () => {
     setHidden(!hidden);
   };
   return (
-    <div>
+    <div className="font-sans">
       {/* Header */}
       <header className="relative p-5">
         {/* Background Image with Filter */}
@@ -36,22 +40,31 @@ const Header = () => {
         />
 
         {/* Nav Section */}
-         {/* Nav Section */}
-      <div className="flex justify-between items-center z-10 md:w-[90%] lg:w-[80%] mx-auto">
-        <img src={Logo} alt="Student Logo" className="h-16 p-2  md:mx-0" />
-        
-        {/* Toggling menu visibility on smaller screens */}
-        <img src={Menu} alt="Menu" className="h-10 text-white md:hidden" onClick={toggleMenu} />
+        {/* Nav Section */}
+        <div className="flex justify-between items-center z-10 md:w-[90%] lg:w-[80%] mx-auto">
+          <img src={Logo} alt="Student Logo" className="h-16 p-2  md:mx-0" />
 
-        {/* Navigation items */}
-        <nav className={`list-none ${hidden ? 'hidden' : 'flex'} flex-col md:flex-row justify-between space-x-0 md:space-x-8 lg:space-x-10 text-white font-bold`}>
-          <li>HOME</li>
-          <li>ABOUT</li>
-          <li>SERVICES</li>
-          <li>WHO WE ARE</li>
-          <li>CONTACT</li>
-        </nav>
-      </div>
+          {/* Toggling menu visibility on smaller screens */}
+          <img
+            src={Menu}
+            alt="Menu"
+            className="h-10 text-white md:hidden"
+            onClick={toggleMenu}
+          />
+
+          {/* Navigation items */}
+          <nav
+            className={`list-none ${
+              hidden ? "hidden" : "flex"
+            } flex-col md:flex-row justify-between space-x-0 md:space-x-8 lg:space-x-10 text-white font-bold`}
+          >
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>SERVICES</li>
+            <li>WHO WE ARE</li>
+            <li>CONTACT</li>
+          </nav>
+        </div>
 
         {/* Landing Body Section */}
         <div className="w-[75%] mx-auto mt-40 mb-72 z-10 space-y-10">
@@ -70,10 +83,10 @@ const Header = () => {
         {/* Overlapping Rectangular Box */}
         <div className="bg-custom-green w-[75%] mx-auto -mt-80  rounded-3xl shadow-2xl p-10 flex flex-col space-x-10">
           {/* Two Columns Layout */}
-          <div className="w-[80%] space-y-24 mx-auto ">
+          <div className="space-y-24 mx-auto ">
             {/*  Fields */}
-            <div className="flex-1 w-[60%] mx-auto">
-              <ul className="grid lg:grid-cols-2 justify-center mx-auto gap-5">
+            <div className="flex-1 w-[60%] md:w-[90%] mx-auto">
+              <ul className="grid lg:grid-cols-2 justify-center mx-auto gap-5 gap-x-0  md:gap-x-20">
                 {/*--------------- First Feild ---------------*/}
                 <div className="flex items-center space-x-4">
                   <div
@@ -171,10 +184,30 @@ const Header = () => {
           <img src={Group776} className="w-40" />
         </div>
         <nav className="font-bold flex flex-col md:flex-row space-x-0 md:space-x-8 lg:space-x-10  text-white">
-          <a>INFO@CULTIVAY.COM</a>
-          <a>CULTIVAY.SA</a>
-          <a>LINKEDIN</a>
-          <a>INSTAGRAM</a>
+          <a>
+            <img src={mail} alt="Email" className="w-8 h-8 md:w-10 md:h-10" />
+          </a>
+          <a>
+            <img
+              src={website}
+              alt="Email"
+              className="w-8 h-8 md:w-10 md:h-10"
+            />
+          </a>
+          <a>
+            <img
+              src={linkedin}
+              alt="Email"
+              className="w-8 h-8 md:w-10 md:h-10"
+            />
+          </a>
+          <a>
+            <img
+              src={instagram}
+              alt="Email"
+              className="w-8 h-8 md:w-10 md:h-10"
+            />
+          </a>
         </nav>
       </footer>
     </div>
