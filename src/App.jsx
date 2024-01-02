@@ -1,10 +1,11 @@
 import "./App.css";
-import Contact from "./Pages/Contact/Contact";
+
 import "./Styles/tailwind.css";
+import { AllRoutes } from "./AllRoutes";
 function App() {
   return (
     <>
-      <Contact />
+      <AllRoutes />
     </>
   );
 }

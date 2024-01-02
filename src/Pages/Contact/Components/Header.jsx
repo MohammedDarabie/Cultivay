@@ -1,20 +1,20 @@
 import { useState } from "react";
-import Landing from "../../../assets/kids-playing-table.png";
-import Logo from "../../../assets/Group541.png";
-import Logo1 from "../../../assets/Group650.png";
-import emailLogo from "../../../assets/emailLogo.png";
-// import Line from "../../../assets/Line.png";
-import Phone from "../../../assets/Phone.png";
-import WhatsApp from "../../../assets/WhatsApp.png";
-import Location from "../../../assets/Location.png";
-import Instagram from "../../../assets/Instagram.png";
-import Exclusion from "../../../assets/Exclusion.png";
-import Group776 from "../../../assets/Group776.png";
-import Menu from "../../../assets/menu.svg";
-import instagram from "../../../assets/instagram.svg";
-import linkedin from "../../../assets/linkedin-circle.svg";
-import mail from "../../../assets/mail.svg";
-import website from "../../../assets/website.svg";
+import Landing from "../../../assets/Contact/kids-playing-table.png";
+import Logo from "../../../assets/Contact/Group541.png";
+import Logo1 from "../../../assets/Contact/Group650.png";
+import emailLogo from "../../../assets/Contact/emailLogo.png";
+import Phone from "../../../assets/Contact/Phone.png";
+import WhatsApp from "../../../assets/Contact/WhatsApp.png";
+import Location from "../../../assets/Contact/Location.png";
+import Instagram from "../../../assets/Contact/Instagram.png";
+import Exclusion from "../../../assets/Contact/Exclusion.png";
+import Group776 from "../../../assets/Contact/Group776.png";
+import Menu from "../../../assets/Contact/menu.svg";
+import instagram from "../../../assets/Contact/instagram.svg";
+import linkedin from "../../../assets/Contact/linkedin-circle.svg";
+import mail from "../../../assets/Contact/mail.svg";
+import website from "../../../assets/Contact/website.svg";
+import { Link } from "react-router-dom";
 const Header = () => {
   const [hidden, setHidden] = useState(false);
   const toggleMenu = () => {
@@ -58,11 +58,11 @@ const Header = () => {
               hidden ? "hidden" : "flex"
             } flex-col md:flex-row justify-between space-x-0 md:space-x-8 lg:space-x-10 text-white font-bold`}
           >
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>SERVICES</li>
-            <li>WHO WE ARE</li>
-            <li>CONTACT</li>
+            <Link to={"/"}>HOME</Link>
+            <Link to={"/about"}>ABOUT</Link>
+            <Link to={"/programs"}>PROGRAMS</Link>
+            <Link to={"/whoweare"}>WHO WE ARE</Link>
+            <Link to={"/contact"}>CONTACT</Link>
           </nav>
         </div>
 
@@ -178,12 +178,12 @@ const Header = () => {
           <img src={Logo} className="mx-auto w-48 md:w-52 lg:w-80" />
         </div>
       </main>
-      <img src={Exclusion} className="" />
-      <footer className="flex flex-col md:flex-row bg-custom-green  justify-evenly items-center p-5">
-        <div className="">
+      <img src={Exclusion} className="-mb-5" />
+      <footer className=" flex flex-col md:flex-row bg-custom-green  justify-evenly items-center p-5">
+        <div className="mb-5">
           <img src={Group776} className="w-40" />
         </div>
-        <nav className="font-bold flex flex-col md:flex-row space-x-0 md:space-x-8 lg:space-x-10  text-white">
+        <nav className="font-bold grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-x-5  text-white">
           <a>
             <img src={mail} alt="Email" className="w-8 h-8 md:w-10 md:h-10" />
           </a>
