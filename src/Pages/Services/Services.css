@@ -1,0 +1,411 @@
+.sensory-textbox > p {
+  margin: 0.7rem auto;
+  font-weight: bold;
+}
+
+.physicalTherapySection {
+  height: 80vh;
+  background-color: #bc756a;
+  margin: 0 0 5rem 0;
+  @media (max-width: 768px) {
+    height: fit-content;
+  }
+}
+
+.physicalTherapyContainer {
+  width: 40%;
+  margin: 0 auto;
+  padding: 5rem 0;
+  @media (max-width: 768px) {
+    width: 80%;
+  }
+}
+
+.textbox-physicalTherapy {
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.physicalTherapyHeaderDiv {
+  margin-right: 3rem;
+  position: relative;
+  padding: 4rem;
+  z-index: 1;
+  @media (max-width: 768px) {
+    padding: 1rem;
+  }
+}
+
+.physicalTherapyHeaderDiv::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 47px;
+  left: 37px;
+  width: 137px;
+  height: 110px;
+  border: 2px solid #ce9479;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ce9479;
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .physicalTherapyHeaderDiv::before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 137px;
+    height: 110px;
+    border: 2px solid #ce9479;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ce9479;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+  }
+}
+
+.physicalTherapyHeaderDiv > p {
+  font-size: 0.9rem;
+  margin: 1rem 0;
+  color: white;
+  @media (max-width: 768px) {
+    margin: 0;
+  }
+}
+.physicalTherapyHeaderDiv > img {
+  position: absolute;
+  top: 120px;
+  left: 303px;
+
+  @media (max-width: 768px) {
+    top: -5px;
+    left: 200px;
+  }
+}
+.physicalTherapyHeaderDiv > h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: bold;
+  color: #f2d499;
+  @media (max-width: 768px) {
+    font-size: 2.5rem;
+    line-height: 1;
+    font-weight: bold;
+    color: #f2d499;
+  }
+}
+
+.textbox-physicalTherapy {
+  border-top: 0.2rem solid #f2d499;
+  padding-top: 3rem;
+  line-height: 2rem;
+  color: white;
+}
+
+.firstleftdivphysicaltherapytextbox {
+  margin: 1rem 0;
+  color: #f2d499;
+}
+
+.rightdivphysicaltherapytextbox > ul {
+  list-style-image: url("../../assets/Services/Icons/pin.svg");
+}
+
+.rightdivphysicaltherapytextbox > ul > li {
+  margin: 1rem 0;
+}
+
+.photocontainerphysical {
+  position: relative;
+  z-index: 0;
+}
+.OccupationalContainer {
+  margin: 23rem auto;
+  @media (max-width: 768px) {
+    margin: 3rem auto;
+  }
+}
+
+.sunlogo {
+  position: absolute;
+  z-index: 2;
+  top: 218px;
+  left: 1500px;
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.kidspic {
+  position: absolute;
+  z-index: -1;
+  top: 12px;
+  left: 625px;
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+/* @media (max-width: 768px) {
+    
+  } */
+.hands {
+  @media (max-width: 768px) {
+    margin-left: -60px;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/*                              Speech Swallowing                             */
+/* -------------------------------------------------------------------------- */
+.speechSwallowingContainer {
+  width: 50%;
+  margin: 2rem auto;
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+}
+
+.speechSwallowing {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.speechHeader {
+  margin: 5rem auto;
+  position: relative;
+}
+
+.speechHeaderText1 > p {
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  color: #bc756a;
+  @media (max-width: 768px) {
+    margin: 0;
+  }
+}
+
+.speechHeaderText1 > h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #bc756a;
+  @media (max-width: 768px) {
+    font-size: 2.5rem;
+    line-height: 1;
+    font-weight: bold;
+    color: #bc756a;
+  }
+}
+
+.speechHeader::before {
+  content: "";
+  z-index: -5;
+  position: absolute;
+  top: -12px;
+  left: -50px;
+  width: 137px;
+  height: 110px;
+  border: 2px solid #f2d499;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2d499;
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .speechHeader::before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: -30px;
+    left: -10px;
+    width: 137px;
+    height: 110px;
+    border: 2px solid #f2d499;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2d499;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+  }
+}
+
+.speechHeaderText2 > p {
+  margin: 0.7rem auto;
+  font-weight: light;
+}
+
+/* ---------------------------------- Image --------------------------------- */
+
+.speechSwallowingImg {
+  position: relative;
+}
+
+.speechSwallowingImg::before {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  bottom: -27px;
+  right: -55px;
+  background-image: url(/src/assets/Services/Icons/011.svg);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .speechSwallowingImg::before {
+    display: none;
+  }
+}
+
+/* Entertainment */
+
+/* ------------------------------ Entertainment ----------------------------- */
+
+.entertainmentContainer {
+  position: relative;
+  width: 50%;
+  margin: 5rem auto;
+  background-color: #f7e3bd;
+  padding: 3rem;
+  border-radius: 7rem;
+  padding-left: 4rem;
+
+  @media (max-width: 768px) {
+    width: 90%;
+    padding: 2rem;
+  }
+}
+
+.entertainmentContainer::before {
+  content: "02"; /* The text to display */
+  z-index: 100;
+  position: absolute; /* Positioning relative to the Intervention div */
+  top: 0px; /* Adjust as needed */
+  left: 30px; /* Adjust as needed */
+  width: 125px;
+  height: 75px;
+  border: 2px solid #f2d499; /* Border of the square */
+  border-radius: 10px; /* Rounded corners */
+  display: flex; /* To center the content */
+  align-items: center; /* Align content vertically */
+  justify-content: center; /* Align content horizontally */
+  background-color: #f2d499; /* Background color of the square */
+  font-size: 3rem; /* Font size of the text */
+  color: white; /* Text color */
+  font-weight: bold;
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .entertainmentContainer::before {
+        top: -6px;
+        left: 14px;
+        width: 92px;
+        height: 55px;
+    }
+  }
+
+@media (max-width: 768px) {
+  .entertainmentContainer {
+    width: 90%;
+    margin: 5rem auto;
+  }
+}
+
+.leftBoxEntertainment {
+  position: relative;
+}
+
+.leftBoxEntertainment > img {
+  position: absolute;
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.leftBoxEntertainment > img:first-child {
+  right: 0;
+  top: -150px;
+}
+.leftBoxEntertainment > img:nth-child(2) {
+  right: 0;
+  top: -150px;
+}
+.leftBoxEntertainment > img:nth-child(3) {
+    right: 0;
+    top: -229px;
+}
+
+.rightBoxEntertainment {
+  margin: 2rem auto;
+}
+
+.entertainmentHeader h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #566c5c;
+  @media (max-width: 768px) {
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: bold;
+    color: #566c5c;
+  }
+}
+
+.entertainmentHeader p {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #566c5c;
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: bold;
+    color: #566c5c;
+  }
+}
+
+.rightBoxEntertainment > p {
+  margin: 2rem auto;
+  @media (max-width: 768px) {
+    margin: 1rem auto;
+  }
+}
+
+
+.handsOnActivities {
+    margin: 10rem auto;
+    @media (max-width: 768px) {
+      margin: 3rem auto;
+    }
+  }

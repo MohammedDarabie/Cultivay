@@ -33,11 +33,11 @@ const WhoWeAre = () => {
           <ul
             className={`list-none ${
               hidden ? "hidden" : "flex"
-            } flex-col md:flex-row justify-between space-x-0 md:space-x-8 lg:space-x-10 text-black font-bold`}
+            } flex-row  justify-between space-x-4 p-5 md:space-x-8 lg:space-x-10 text-black font-bold`}
           >
             <Link to={"/"}>HOME</Link>
             <Link to={"/about"}>ABOUT</Link>
-            <Link to={"/programs"}>PROGRAMS</Link>
+            <Link to={"/services"}>SERVICES</Link>
             <Link to={"/whoweare"}>WHO WE ARE</Link>
             <Link to={"/contact"}>CONTACT</Link>
           </ul>
@@ -51,7 +51,7 @@ const WhoWeAre = () => {
               WHO<br></br>WE<br></br>ARE
             </h1>
           </div>
-          <div className="flex justify-between ">
+          <div className="flex justify-between overflow-hidden">
             <div className=" h-full"></div>
             <img src={Landing} className="-mt-12 lg:-mt-48 lg:ml-48" />
           </div>

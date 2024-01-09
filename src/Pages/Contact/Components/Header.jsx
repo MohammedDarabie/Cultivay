@@ -6,10 +6,10 @@ import emailLogo from "../../../assets/Contact/emailLogo.png";
 import Phone from "../../../assets/Contact/Phone.png";
 import WhatsApp from "../../../assets/Contact/WhatsApp.png";
 import Location from "../../../assets/Contact/Location.png";
-import Instagram from "../../../assets/Contact/Instagram.png";
 import Exclusion from "../../../assets/Contact/Exclusion.png";
-import Group776 from "../../../assets/Contact/Group776.png";
 import Menu from "../../../assets/Contact/menu.svg";
+import Instagram from "../../../assets/Contact/Instagram.png";
+import Group776 from "../../../assets/Contact/Group776.png";
 import instagram from "../../../assets/Contact/instagram.svg";
 import linkedin from "../../../assets/Contact/linkedin-circle.svg";
 import mail from "../../../assets/Contact/mail.svg";
@@ -60,7 +60,7 @@ const Header = () => {
           >
             <Link to={"/"}>HOME</Link>
             <Link to={"/about"}>ABOUT</Link>
-            <Link to={"/programs"}>PROGRAMS</Link>
+            <Link to={"/services"}>SERVICES</Link>
             <Link to={"/whoweare"}>WHO WE ARE</Link>
             <Link to={"/contact"}>CONTACT</Link>
           </nav>
