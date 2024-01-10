@@ -43,12 +43,12 @@
   content: "";
   z-index: -1;
   position: absolute;
-  top: 0.7rem;
-  left: 0.6rem;
-  width: 8.68rem;
-  height: 6.96rem;
-  border: 0.2rem solid #ce9479;
-  border-radius: 1.5rem;
+  top: 47px;
+  left: 37px;
+  width: 137px;
+  height: 110px;
+  border: 2px solid #ce9479;
+  border-radius: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,12 +63,12 @@
     content: "";
     z-index: -1;
     position: absolute;
-    top: 0;
-    left: 0.27rem;
-    width: 8.68rem;
-    height: 6.96rem;
-    border: 0.2rem solid #ce9479;
-    border-radius: 1.5rem;
+    top: 0px;
+    left: 10px;
+    width: 137px;
+    height: 110px;
+    border: 2px solid #ce9479;
+    border-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,12 +89,12 @@
 }
 .physicalTherapyHeaderDiv > img {
   position: absolute;
-  top: 7.68rem;
-  left: 19.38rem;
+  top: 120px;
+  left: 303px;
 
   @media (max-width: 768px) {
-    top: -0.4rem;
-    left: 12.92rem;
+    top: -5px;
+    left: 200px;
   }
 }
 .physicalTherapyHeaderDiv > h1 {
@@ -135,7 +135,7 @@
   z-index: 0;
 }
 .OccupationalContainer {
-  margin: 3.68rem auto;
+  margin: 23rem auto;
   @media (max-width: 768px) {
     margin: 3rem auto;
   }
@@ -144,8 +144,8 @@
 .sunlogo {
   position: absolute;
   z-index: 2;
-  top: 9.28rem;
-  left: 97rem;
+  top: 218px;
+  left: 1500px;
   @media (max-width: 768px) {
     display: none;
   }
@@ -154,8 +154,8 @@
 .kidspic {
   position: absolute;
   z-index: -1;
-  top: -3.04rem;
-  left: 32rem;
+  top: 12px;
+  left: 625px;
   @media (max-width: 768px) {
     display: none;
   }
@@ -166,7 +166,7 @@
   } */
 .hands {
   @media (max-width: 768px) {
-    margin-left: -3.6rem;
+    margin-left: -60px;
   }
 }
 
@@ -221,12 +221,12 @@
   content: "";
   z-index: -5;
   position: absolute;
-  top: -1.2rem;
-  left: -1rem;
-  width: 8.68rem;
-  height: 6.96rem;
-  border: 0.2rem solid #f2d499;
-  border-radius: 1.5rem;
+  top: -12px;
+  left: -50px;
+  width: 137px;
+  height: 110px;
+  border: 2px solid #f2d499;
+  border-radius: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -241,12 +241,12 @@
     content: "";
     z-index: -1;
     position: absolute;
-    top: -3rem;
-    left: -0.8rem;
-    width: 8.68rem;
-    height: 6.96rem;
-    border: 0.2rem solid #f2d499;
-    border-radius: 1.5rem;
+    top: -30px;
+    left: -10px;
+    width: 137px;
+    height: 110px;
+    border: 2px solid #f2d499;
+    border-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -272,12 +272,12 @@
   position: absolute;
   content: "";
   z-index: -1;
-  bottom: -1.7rem;
-  right: -3.5rem;
+  bottom: -27px;
+  right: -55px;
   background-image: url(/src/assets/Services/Icons/011.svg);
   background-size: cover;
-  width: 13rem;
-  height: 13rem;
+  width: 200px;
+  height: 200px;
 }
 
 @media screen and (max-width: 768px) {
@@ -292,7 +292,7 @@
 
 .entertainmentContainer {
   position: relative;
-  width: 70%;
+  width: 50%;
   margin: 5rem auto;
   background-color: #f7e3bd;
   padding: 3rem;
@@ -309,12 +309,12 @@
   content: "02"; /* The text to display */
   z-index: 100;
   position: absolute; /* Positioning relative to the Intervention div */
-  top: -41px;
-  left: -4.5rem;
-  width: 12.5rem;
-  height: 7.5rem;
-  border: 0.2rem solid #f2d499; /* Border of the square */
-  border-radius: 1rem; /* Rounded corners */
+  top: 0px; /* Adjust as needed */
+  left: 30px; /* Adjust as needed */
+  width: 125px;
+  height: 75px;
+  border: 2px solid #f2d499; /* Border of the square */
+  border-radius: 10px; /* Rounded corners */
   display: flex; /* To center the content */
   align-items: center; /* Align content vertically */
   justify-content: center; /* Align content horizontally */
@@ -326,10 +326,10 @@
 
 @media screen and (max-width: 768px) {
   .entertainmentContainer::before {
-    top: -1.6rem;
-    left: 0.4rem;
-    width: 9.2rem;
-    height: 5.5rem;
+    top: -6px;
+    left: 14px;
+    width: 92px;
+    height: 55px;
   }
 }
 
@@ -352,16 +352,16 @@
 }
 
 .leftBoxEntertainment > img:first-child {
-  right: -6.25rem;
-  top: -8.875rem;
+  right: -100px;
+  top: -143px;
 }
 .leftBoxEntertainment > img:nth-child(2) {
   right: 0;
-  top: -9.375rem;
+  top: -150px;
 }
 .leftBoxEntertainment > img:nth-child(3) {
   right: 0;
-  top: -11.125rem;
+  top: -229px;
 }
 
 .rightBoxEntertainment {
@@ -430,16 +430,16 @@
 .containerForPicture > img {
   position: absolute;
   @media (max-width: 768px) {
-    top: -2.4375rem;
-    left: 0;
+    top: -39px;
+    left: 0px;
   }
 }
 
 .textinPicture {
   background-color: #f7e3bd;
   position: absolute;
-  top: 20.4375rem;
-  left: 34rem;
+  top: 327px;
+  left: 536px;
   width: -moz-fit-content;
   width: fit-content;
   padding: 2rem 4rem;
@@ -447,8 +447,8 @@
   @media (max-width: 768px) {
     background-color: #f7e3bd;
     position: absolute;
-    top: 10.625rem;
-    left: 0;
+    top: 170px;
+    left: 0px;
     width: -moz-fit-content;
     width: fit-content;
     padding: 1rem 2rem;
@@ -503,10 +503,10 @@
   position: absolute;
   content: "";
   z-index: -1;
-  top: -1.75rem; /* Changed from -28px */
-  left: -1.5625rem; /* Changed from -25px */
-  height: 4.625rem; /* Changed from 116px */
-  width: 5.8125rem; /* Changed from 149px */
+  top: -28px px;
+  left: -25px;
+  height: 116px;
+  width: 149px;
   border-radius: 2rem;
   background-color: #efbe90;
 }
@@ -517,7 +517,6 @@
   @media (max-width: 768px) {
   }
 }
-
 .TextParent > h1 {
   font-size: 3.5rem;
   line-height: 1.2;
@@ -559,12 +558,14 @@
   }
 }
 .textsideMessyPlay > p {
-  margin: 2rem auto;
+ margin: 2rem auto;
 }
 
-.picturesSideMessyPlay {
+
+.picturesSideMessyPlay{
   display: flex;
   flex: 1;
+  
   justify-content: center;
   align-items: center;
 }
