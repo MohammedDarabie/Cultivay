@@ -43,12 +43,12 @@
   content: "";
   z-index: -1;
   position: absolute;
-  top: 47px;
-  left: 37px;
-  width: 137px;
-  height: 110px;
-  border: 2px solid #ce9479;
-  border-radius: 30px;
+  top: 0.7rem;
+  left: 0.6rem;
+  width: 8.68rem;
+  height: 6.96rem;
+  border: 0.2rem solid #ce9479;
+  border-radius: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,12 +63,12 @@
     content: "";
     z-index: -1;
     position: absolute;
-    top: 0px;
-    left: 10px;
-    width: 137px;
-    height: 110px;
-    border: 2px solid #ce9479;
-    border-radius: 30px;
+    top: 0;
+    left: 0.27rem;
+    width: 8.68rem;
+    height: 6.96rem;
+    border: 0.2rem solid #ce9479;
+    border-radius: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,12 +89,12 @@
 }
 .physicalTherapyHeaderDiv > img {
   position: absolute;
-  top: 120px;
-  left: 303px;
+  top: 7.68rem;
+  left: 19.38rem;
 
   @media (max-width: 768px) {
-    top: -5px;
-    left: 200px;
+    top: -0.4rem;
+    left: 12.92rem;
   }
 }
 .physicalTherapyHeaderDiv > h1 {
@@ -135,7 +135,7 @@
   z-index: 0;
 }
 .OccupationalContainer {
-  margin: 23rem auto;
+  margin: 3.68rem auto;
   @media (max-width: 768px) {
     margin: 3rem auto;
   }
@@ -144,8 +144,8 @@
 .sunlogo {
   position: absolute;
   z-index: 2;
-  top: 218px;
-  left: 1500px;
+  top: 15.28rem;
+  left: 100rem;
   @media (max-width: 768px) {
     display: none;
   }
@@ -154,8 +154,8 @@
 .kidspic {
   position: absolute;
   z-index: -1;
-  top: 12px;
-  left: 625px;
+  top: 0.96rem;
+  left: 39rem;
   @media (max-width: 768px) {
     display: none;
   }
@@ -166,7 +166,7 @@
   } */
 .hands {
   @media (max-width: 768px) {
-    margin-left: -60px;
+    margin-left: -3.6rem;
   }
 }
 
@@ -221,12 +221,12 @@
   content: "";
   z-index: -5;
   position: absolute;
-  top: -12px;
-  left: -50px;
-  width: 137px;
-  height: 110px;
-  border: 2px solid #f2d499;
-  border-radius: 30px;
+  top: -1.2rem;
+  left: -1rem;
+  width: 8.68rem;
+  height: 6.96rem;
+  border: 0.2rem solid #f2d499;
+  border-radius: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -241,12 +241,12 @@
     content: "";
     z-index: -1;
     position: absolute;
-    top: -30px;
-    left: -10px;
-    width: 137px;
-    height: 110px;
-    border: 2px solid #f2d499;
-    border-radius: 30px;
+    top: -3rem;
+    left: -0.8rem;
+    width: 8.68rem;
+    height: 6.96rem;
+    border: 0.2rem solid #f2d499;
+    border-radius: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -272,12 +272,12 @@
   position: absolute;
   content: "";
   z-index: -1;
-  bottom: -27px;
-  right: -55px;
+  bottom: -1.7rem;
+  right: -3.5rem;
   background-image: url(/src/assets/Services/Icons/011.svg);
   background-size: cover;
-  width: 200px;
-  height: 200px;
+  width: 13rem;
+  height: 13rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -309,12 +309,12 @@
   content: "02"; /* The text to display */
   z-index: 100;
   position: absolute; /* Positioning relative to the Intervention div */
-  top: 0px; /* Adjust as needed */
-  left: 30px; /* Adjust as needed */
-  width: 125px;
-  height: 75px;
-  border: 2px solid #f2d499; /* Border of the square */
-  border-radius: 10px; /* Rounded corners */
+  top: -39px;
+  left: -3.5rem;
+  width: 12.5rem;
+  height: 7.5rem;
+  border: 0.2rem solid #f2d499; /* Border of the square */
+  border-radius: 1rem; /* Rounded corners */
   display: flex; /* To center the content */
   align-items: center; /* Align content vertically */
   justify-content: center; /* Align content horizontally */
@@ -326,10 +326,10 @@
 
 @media screen and (max-width: 768px) {
   .entertainmentContainer::before {
-    top: -6px;
-    left: 14px;
-    width: 92px;
-    height: 55px;
+    top: -0.6rem;
+    left: 0.4rem;
+    width: 9.2rem;
+    height: 5.5rem;
   }
 }
 
@@ -352,16 +352,16 @@
 }
 
 .leftBoxEntertainment > img:first-child {
-  right: -100px;
-  top: -143px;
+  right: -14.25rem;
+  top: -8.875rem;
 }
 .leftBoxEntertainment > img:nth-child(2) {
-  right: 0;
-  top: -150px;
+  right: -9rem;
+  top: -9.375rem;
 }
 .leftBoxEntertainment > img:nth-child(3) {
-  right: 0;
-  top: -229px;
+  right: -10rem;
+  top: -11.125rem;
 }
 
 .rightBoxEntertainment {
@@ -430,16 +430,16 @@
 .containerForPicture > img {
   position: absolute;
   @media (max-width: 768px) {
-    top: -39px;
-    left: 0px;
+    top: -2.4375rem;
+    left: 0;
   }
 }
 
 .textinPicture {
   background-color: #f7e3bd;
   position: absolute;
-  top: 327px;
-  left: 536px;
+  top: 20.4375rem;
+  left: 34rem;
   width: -moz-fit-content;
   width: fit-content;
   padding: 2rem 4rem;
@@ -447,8 +447,8 @@
   @media (max-width: 768px) {
     background-color: #f7e3bd;
     position: absolute;
-    top: 170px;
-    left: 0px;
+    top: 10.625rem;
+    left: 0;
     width: -moz-fit-content;
     width: fit-content;
     padding: 1rem 2rem;
@@ -503,11 +503,11 @@
   position: absolute;
   content: "";
   z-index: -1;
-  top: -28px px;
-  left: -25px;
-  height: 116px;
-  width: 149px;
-  border-radius: 2rem;
+  top: -1.75rem;
+  left: -1.25rem;
+  height: 4.625rem;
+  width: 5.8125rem;
+  border-radius: 0.125rem;
   background-color: #efbe90;
 }
 
@@ -515,8 +515,10 @@
   margin-top: 2rem;
   line-height: 1.9rem;
   @media (max-width: 768px) {
+    margin-top: 1rem;
   }
 }
+
 .TextParent > h1 {
   font-size: 3.5rem;
   line-height: 1.2;
@@ -528,11 +530,6 @@
     font-weight: bold;
   }
 }
-
-.TextParent > h3 {
-}
-
-/* ------------------------------- Messy Play ------------------------------- */
 
 .messyPlay {
   width: 40%;
@@ -546,6 +543,7 @@
 .textsideMessyPlay > h3 {
   font-size: 0.9rem;
 }
+
 .textsideMessyPlay > h1 {
   font-size: 3rem;
   line-height: 1.2;
@@ -557,15 +555,17 @@
     font-weight: bold;
   }
 }
+
 .textsideMessyPlay > p {
- margin: 2rem auto;
+  margin: 2rem auto;
+  @media (max-width: 768px) {
+    margin: 1rem auto;
+  }
 }
 
-
-.picturesSideMessyPlay{
+.picturesSideMessyPlay {
   display: flex;
   flex: 1;
-  
   justify-content: center;
   align-items: center;
 }
