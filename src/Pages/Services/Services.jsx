@@ -20,6 +20,9 @@ import kidPainting from "../../assets/Services/Images/07.png";
 import upper from "../../assets/Services/Icons/upper.svg";
 import lower from "../../assets/Services/Icons/lower.svg";
 import garden from "../../assets/Services/Images/09.png";
+import Foam from "../../assets/Services/Images/011.png";
+import Leather from "../../assets/Services/Images/012.png";
+import SoltSand from "../../assets/Services/Images/013.png";
 import "./Services.css";
 import { Link } from "react-router-dom";
 /* -------------------------------------------------------------------------- */
@@ -579,6 +582,37 @@ const Services = () => {
           </div>
         </div>
         <img src={lower}></img>
+      </div>
+      {/* /* ------------------------------- Messy Play -------------------------------  */}
+      <div className="messyPlay">
+        <div className="textsideMessyPlay">
+          <h3>ENTERTAINMENT PROGRAM</h3>
+          <h1>Messy Play</h1>
+          <p>
+            Messy Play lets kids explore their senses and follow <br />
+            their natural curiosity at all developmental stages. <br />
+            They practice their motor, verbal, and social skills <br />
+            while gaining an understanding of fundamental <br />
+            cognitive ideas
+          </p>
+        </div>
+        <div className="picturesSideMessyPlay">
+          {/* First Div */}
+          <div>
+            <img src={Foam}></img>
+            <p>Foam</p>
+          </div>
+          {/* Second Div */}
+          <div>
+            <img src={Leather}></img>
+            <p>Leather</p>
+          </div>
+          {/* Third Div */}
+          <div>
+            <img src={SoltSand}></img>
+            <p>Soft Sand</p>
+          </div>
+        </div>
       </div>
     </>
   );
