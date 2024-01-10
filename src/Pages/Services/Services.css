@@ -144,8 +144,8 @@
 .sunlogo {
   position: absolute;
   z-index: 2;
-  top: 15.28rem;
-  left: 100rem;
+  top: 7.28rem;
+  left: 88rem;
   @media (max-width: 768px) {
     display: none;
   }
@@ -154,8 +154,8 @@
 .kidspic {
   position: absolute;
   z-index: -1;
-  top: 0.96rem;
-  left: 39rem;
+  top: -3.04rem;
+  left: 25rem;
   @media (max-width: 768px) {
     display: none;
   }
