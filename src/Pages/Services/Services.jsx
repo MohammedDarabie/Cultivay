@@ -16,8 +16,12 @@ import kidfoot from "../../assets/Services/Images/02.png";
 import chess from "../../assets/Services/Images/03.png";
 import dentist from "../../assets/Services/Images/04.png";
 import fan from "../../assets/Services/Images/06.png";
-import kidPainting from '../../assets/Services/Images/07.png'
+import kidPainting from "../../assets/Services/Images/07.png";
+import upper from "../../assets/Services/Icons/upper.svg";
+import lower from "../../assets/Services/Icons/lower.svg";
+import garden from "../../assets/Services/Images/09.png";
 import "./Services.css";
+import { Link } from "react-router-dom";
 /* -------------------------------------------------------------------------- */
 /*                                 START STYLE                                */
 /* -------------------------------------------------------------------------- */
@@ -279,19 +283,19 @@ const Services = () => {
         <Logo src={logo} alt="Logo" />
         <Menu open={isOpen}>
           <MenuItem>
-            <a href="#">HOME</a>
+            <Link to="/">HOME</Link>
           </MenuItem>
           <MenuItem>
-            <a href="#">ABOUT</a>
+            <Link to="/about">ABOUT</Link>
           </MenuItem>
           <MenuItem>
-            <a href="#">PROGRAMS</a>
+            <Link to="/services">PROGRAMS</Link>
           </MenuItem>
           <MenuItem>
-            <a href="#">WHO-WE-ARE</a>
+            <Link to="/whoweare">WHO-WE-ARE</Link>
           </MenuItem>
           <MenuItem>
-            <a href="#">CONTACT</a>
+            <Link to="/contact">CONTACT</Link>
           </MenuItem>
         </Menu>
         <Burger onClick={() => setIsOpen(!isOpen)}>
@@ -532,18 +536,49 @@ const Services = () => {
         </SensoryContainer>
       </div>
       {/* /* -------------------------- Picture Therapy --------------------------  */}
-      <div >
-        <img src={kidPainting} />
-        <div>
-          <p>
-            By immersing children in tactile <br />
-            experiences, hands-on activities foster <br />
-            a deeper level of engagement, stimulate <br />
-            sensory perception, and facilitate the <br />
-            acquisition of knowledge and skills in a <br />
-            more interactive and memorable manner.
-          </p>
+      <div className="divforpictures">
+        <div className="containerForPicture">
+          <img src={kidPainting} />
+          <div className="textinPicture">
+            <p>
+              By immersing children in tactile <br />
+              experiences, hands-on activities foster <br />
+              a deeper level of engagement, stimulate <br />
+              sensory perception, and facilitate the <br />
+              acquisition of knowledge and skills in a <br />
+              more interactive and memorable manner.
+            </p>
+          </div>
         </div>
+      </div>
+      {/* /* -------------------------- Natural Outdoor Space -------------------------  */}
+      <div className="NaturalOutdoorSpace">
+        <img src={upper}></img>
+        <div className="NaturalSpaceDivParent">
+          <div className="NaturalSpaceDivChild1">
+            <div className="AllParent">
+              <img src={garden}></img>
+              <div className="TextParent">
+                <h3>Hands-On Activities</h3>
+                <h1>
+                  Natural Outdoor
+                  <br />
+                  Space
+                </h1>
+
+                <p>
+                  Our Natural Outdoor Space is composed of natural <br />
+                  elements and features, allowing children to connect <br />
+                  with nature and experience its inherent beauty and <br />
+                  tranquility. This spaces provides an opportunity to do <br />
+                  recreational activities , and it plays a vital role in <br />
+                  promoting the overall well-being of children.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src={lower}></img>
       </div>
     </>
   );

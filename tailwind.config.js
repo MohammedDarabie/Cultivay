@@ -2,8 +2,9 @@
 // tailwind.config.js
 module.exports = {
   content: [
-    "./path/to/your/html/**/*.html",
-    "./path/to/your/templates/**/*.js",
+    "./src/**/*.html",
+    "./src/**/*.jsx",
+    // Add other file types if needed
   ],
 
   darkMode: "media",

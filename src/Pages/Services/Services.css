@@ -123,7 +123,7 @@
 }
 
 .rightdivphysicaltherapytextbox > ul {
-  list-style-image: url("../../assets/Services/Icons/pin.svg");
+  list-style-image: url("../../assets/Services/Icons/Arrow_Bullet_point.svg");
 }
 
 .rightdivphysicaltherapytextbox > ul > li {
@@ -322,18 +322,16 @@
   font-size: 3rem; /* Font size of the text */
   color: white; /* Text color */
   font-weight: bold;
-
-
 }
 
 @media screen and (max-width: 768px) {
-    .entertainmentContainer::before {
-        top: -6px;
-        left: 14px;
-        width: 92px;
-        height: 55px;
-    }
+  .entertainmentContainer::before {
+    top: -6px;
+    left: 14px;
+    width: 92px;
+    height: 55px;
   }
+}
 
 @media (max-width: 768px) {
   .entertainmentContainer {
@@ -362,8 +360,8 @@
   top: -150px;
 }
 .leftBoxEntertainment > img:nth-child(3) {
-    right: 0;
-    top: -229px;
+  right: 0;
+  top: -229px;
 }
 
 .rightBoxEntertainment {
@@ -402,10 +400,134 @@
   }
 }
 
-
 .handsOnActivities {
-    margin: 10rem auto;
-    @media (max-width: 768px) {
-      margin: 3rem auto;
-    }
+  margin: 7rem auto;
+  @media (max-width: 768px) {
+    margin: 3rem auto;
   }
+}
+
+/* ---------------------------- Pictures Section ---------------------------- */
+
+.divforpictures {
+  margin-bottom: 30rem;
+}
+
+.containerForPicture {
+  position: relative;
+  width: 50%;
+  margin: 5rem auto;
+  padding: 3rem;
+  border-radius: 7rem;
+  padding-left: 4rem;
+
+  @media (max-width: 768px) {
+    width: 90%;
+    padding: 2rem;
+  }
+}
+
+.containerForPicture > img {
+  position: absolute;
+  @media (max-width: 768px) {
+    top: -39px;
+    left: 0px;
+  }
+}
+
+.textinPicture {
+  background-color: #f7e3bd;
+  position: absolute;
+  top: 327px;
+  left: 536px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 2rem 4rem;
+  border-radius: 3rem;
+  @media (max-width: 768px) {
+    background-color: #f7e3bd;
+    position: absolute;
+    top: 170px;
+    left: 0px;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+  }
+}
+
+/* -------------------------- Natural Outdoor Space ------------------------- */
+.NaturalOutdoorSpace {
+  margin: 7rem auto;
+}
+
+.NaturalSpaceDivParent {
+  height: 60vh;
+  background-color: #f7e3bd;
+  overflow: hidden;
+  @media (max-width: 768px) {
+    height: 140vh;
+  }
+}
+
+.NaturalSpaceDivChild1 {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.AllParent {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    justify-content: center;
+  }
+  z-index: 0;
+}
+
+.AllParent > img {
+  @media (max-width: 768px) {
+    margin: 5rem auto;
+  }
+}
+
+.TextParent {
+  position: relative;
+  color: #5f7766;
+  z-index: -1;
+}
+
+.TextParent::before {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  top: -28px px;
+  left: -25px;
+  height: 116px;
+  width: 149px;
+  border-radius: 2rem;
+  background-color: #efbe90;
+}
+
+.TextParent > p {
+  margin-top: 2rem;
+  line-height: 1.9rem;
+  @media (max-width: 768px) {
+  }
+}
+.TextParent > h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  font-weight: bold;
+
+  @media (max-width: 768px) {
+    font-size: 2.5rem;
+    line-height: 1;
+    font-weight: bold;
+  }
+}
+
+.TextParent > h3 {
+}
