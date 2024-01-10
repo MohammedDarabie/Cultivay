@@ -144,8 +144,8 @@
 .sunlogo {
   position: absolute;
   z-index: 2;
-  top: 7.28rem;
-  left: 5.5rem; /* Converted from 88rem to 5.5rem */
+  top: 15.28rem;
+  left: 100rem;
   @media (max-width: 768px) {
     display: none;
   }
@@ -154,8 +154,8 @@
 .kidspic {
   position: absolute;
   z-index: -1;
-  top: -0.19rem; /* Converted from -3.04rem to -0.19rem */
-  left: 1.56rem; /* Converted from 25rem to 1.56rem */
+  top: 0.96rem;
+  left: 39rem;
   @media (max-width: 768px) {
     display: none;
   }
@@ -166,7 +166,7 @@
   } */
 .hands {
   @media (max-width: 768px) {
-    margin-left: -0.225rem; /* Converted from -3.6rem to -0.225rem */
+    margin-left: -3.6rem;
   }
 }
 
@@ -221,17 +221,17 @@
   content: "";
   z-index: -5;
   position: absolute;
-  top: -0.075rem; /* Converted from -1.2rem to -0.075rem */
-  left: -0.0625rem; /* Converted from -1rem to -0.0625rem */
-  width: 0.54375rem; /* Converted from 8.68rem to 0.54375rem */
-  height: 0.435rem; /* Converted from 6.96rem to 0.435rem */
-  border: 0.0125rem solid #f2d499; /* Converted from 0.2rem to 0.0125rem */
-  border-radius: 0.09375rem; /* Converted from 1.5rem to 0.09375rem */
+  top: -1.2rem;
+  left: -1rem;
+  width: 8.68rem;
+  height: 6.96rem;
+  border: 0.2rem solid #f2d499;
+  border-radius: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #f2d499;
-  font-size: 1.875rem; /* Converted from 3rem to 1.875rem */
+  font-size: 3rem;
   color: white;
   font-weight: bold;
 }
@@ -241,17 +241,17 @@
     content: "";
     z-index: -1;
     position: absolute;
-    top: -0.1875rem; /* Converted from -3rem to -0.1875rem */
-    left: -0.05rem; /* Converted from -0.8rem to -0.05rem */
-    width: 0.54375rem; /* Converted from 8.68rem to 0.54375rem */
-    height: 0.435rem; /* Converted from 6.96rem to 0.435rem */
-    border: 0.0125rem solid #f2d499; /* Converted from 0.2rem to 0.0125rem */
-    border-radius: 0.09375rem; /* Converted from 1.5rem to 0.09375rem */
+    top: -3rem;
+    left: -0.8rem;
+    width: 8.68rem;
+    height: 6.96rem;
+    border: 0.2rem solid #f2d499;
+    border-radius: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #f2d499;
-    font-size: 1.875rem; /* Converted from 3rem to 1.875rem */
+    font-size: 3rem;
     color: white;
     font-weight: bold;
   }
@@ -272,12 +272,12 @@
   position: absolute;
   content: "";
   z-index: -1;
-  bottom: -0.10625rem; /* Converted from -1.7rem to -0.10625rem */
-  right: -0.175rem; /* Converted from -3.5rem to -0.175rem */
+  bottom: -1.7rem;
+  right: -3.5rem;
   background-image: url(/src/assets/Services/Icons/011.svg);
   background-size: cover;
-  width: 0.8125rem; /* Converted from 13rem to 0.8125rem */
-  height: 0.8125rem; /* Converted from 13rem to 0.8125rem */
+  width: 13rem;
+  height: 13rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -306,30 +306,30 @@
 }
 
 .entertainmentContainer::before {
-  content: "02";
+  content: "02"; /* The text to display */
   z-index: 100;
-  position: absolute;
-  top: -2.4375rem; /* Converted from -39px to -2.4375rem */
-  left: -0.21875rem; /* Converted from -3.5rem to -0.21875rem */
-  width: 0.78125rem; /* Converted from 12.5rem to 0.78125rem */
-  height: 0.46875rem; /* Converted from 7.5rem to 0.46875rem */
-  border: 0.0125rem solid #f2d499; /* Converted from 0.2rem to 0.0125rem */
-  border-radius: 0.0625rem; /* Converted from 1rem to 0.0625rem */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #f2d499;
-  font-size: 1.875rem; /* Converted from 3rem to 1.875rem */
-  color: white;
+  position: absolute; /* Positioning relative to the Intervention div */
+  top: 0; /* Adjust as needed */
+  left: 1.5rem; /* Adjust as needed */
+  width: 12.5rem;
+  height: 7.5rem;
+  border: 0.2rem solid #f2d499; /* Border of the square */
+  border-radius: 1rem; /* Rounded corners */
+  display: flex; /* To center the content */
+  align-items: center; /* Align content vertically */
+  justify-content: center; /* Align content horizontally */
+  background-color: #f2d499; /* Background color of the square */
+  font-size: 3rem; /* Font size of the text */
+  color: white; /* Text color */
   font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
   .entertainmentContainer::before {
-    top: -0.1rem; /* Converted from -1.6rem to -0.1rem */
-    left: 0.025rem; /* Converted from 0.4rem to 0.025rem */
-    width: 0.575rem; /* Converted from 9.2rem to 0.575rem */
-    height: 0.34375rem; /* Converted from 5.5rem to 0.34375rem */
+    top: -0.6rem;
+    left: 0.4rem;
+    width: 9.2rem;
+    height: 5.5rem;
   }
 }
 
@@ -352,20 +352,20 @@
 }
 
 .leftBoxEntertainment > img:first-child {
-  right: -17.890625rem;
-  top: -8.554688rem;
+  right: -6.25rem;
+  top: -8.875rem;
 }
 .leftBoxEntertainment > img:nth-child(2) {
-  right: -13.5625rem;
-  top: -8.585938rem;
+  right: 0;
+  top: -9.375rem;
 }
 .leftBoxEntertainment > img:nth-child(3) {
-  right: -12.625rem;
-  top: -13.695313rem;
+  right: 0;
+  top: -11.125rem;
 }
 
 .rightBoxEntertainment {
-  margin: 1.125rem auto; /* Converted from 2rem to 1.125rem */
+  margin: 2rem auto;
 }
 
 .entertainmentHeader h1 {
@@ -410,7 +410,7 @@
 /* ---------------------------- Pictures Section ---------------------------- */
 
 .divforpictures {
-  margin-bottom: 3rem; /* Changed from 30rem to 3rem */
+  margin-bottom: 30rem;
 }
 
 .containerForPicture {
@@ -438,8 +438,8 @@
 .textinPicture {
   background-color: #f7e3bd;
   position: absolute;
-  top: 20.4375rem; /* Changed from 20.4375rem to 10.625rem */
-  left: 34rem; /* Changed from 34rem to 0 */
+  top: 20.4375rem;
+  left: 34rem;
   width: -moz-fit-content;
   width: fit-content;
   padding: 2rem 4rem;
@@ -499,6 +499,7 @@
   z-index: -1;
 }
 
+
 .TextParent::before {
   position: absolute;
   content: "";
@@ -530,6 +531,7 @@
     font-weight: bold;
   }
 }
+
 
 .messyPlay {
   width: 40%;
