@@ -17,7 +17,7 @@ module.exports = {
         "custom-orange": "#bc756a",
       },
       fontFamily: {
-        sans: ["Roboto", "sans-serif"],
+        sans: ['Nunito', 'sans-serif'],
         secondary: ["Open Sans", "sans-serif"],
       },
     },
