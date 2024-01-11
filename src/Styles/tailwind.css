@@ -28,7 +28,9 @@
   content: "";
   @apply absolute -z-10 -top-5 lg:-top-6 -left-4 lg:-left-6 w-24 h-24 lg:w-28 lg:p-3 md:p-0 lg:h-24 rounded-2xl bg-[#f2d499] flex justify-center items-center text-4xl font-bold text-white; /* Example Tailwind utilities */
 }
-/* ------------------------------ Occupational ------------------------------ */
+/* -------------------------------------------------------------------------- */
+/*                                Occupational                                */
+/* -------------------------------------------------------------------------- */
 .occupational {
   @apply w-[90%] md:w-[80%] lg:w-[60%] mx-auto relative;
 }
@@ -37,7 +39,9 @@
   content: "";
   @apply absolute -z-10 -top-5 lg:top-4 -left-4 lg:-left-3 w-24 h-24 lg:w-28 lg:p-3 md:p-0 lg:h-24 rounded-2xl bg-[#f2d499] flex justify-center items-center text-4xl font-bold text-white; /* Example Tailwind utilities */
 }
-/* ------------------------------ Hands On Activities ------------------------------ */
+/* -------------------------------------------------------------------------- */
+/*                              Hands On Activity                             */
+/* -------------------------------------------------------------------------- */
 .activities {
   @apply w-[90%] md:w-[80%] lg:w-[60%] mx-auto relative;
 }
@@ -46,7 +50,9 @@
   content: "";
   @apply absolute -z-10 -top-5 lg:top-12 -left-4 lg:-left-3 w-24 h-24 lg:w-28 lg:p-3 md:p-0 lg:h-24 rounded-2xl bg-[#f2d499] flex justify-center items-center text-4xl font-bold text-white; /* Example Tailwind utilities */
 }
-/* ------------------------------ Speech + Swallowing ------------------------------ */
+/* -------------------------------------------------------------------------- */
+/*                            Speech and Swallowing                           */
+/* -------------------------------------------------------------------------- */
 .Speech {
   @apply w-[90%] md:w-[80%] lg:w-[60%] mx-auto relative;
 }
@@ -54,6 +60,18 @@
 .Speech::before {
   content: "";
   @apply absolute -z-10 top-[30rem] lg:top-28 -left-4 lg:left-[47rem] w-24 h-24 lg:w-28 lg:p-3 md:p-0 lg:h-24 rounded-2xl bg-[#f2d499] flex justify-center items-center text-4xl font-bold text-white; /* Example Tailwind utilities */
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   OutDoor                                  */
+/* -------------------------------------------------------------------------- */
+.outdoor {
+  @apply my-12 space-y-5 relative  ;
+}
+
+.outdoor::before {
+  content: "";
+  @apply absolute -z-10 -top-5 lg:top-12 -left-4 lg:-left-3 w-24 h-24 lg:w-28 lg:p-3 md:p-0 lg:h-24 rounded-2xl bg-white flex justify-center items-center text-4xl font-bold text-white; /* Example Tailwind utilities */
 }
 
 .physicalHeader {
@@ -71,4 +89,19 @@
 .physicalInnerDiv::before {
   content: "";
   @apply absolute -z-10 top-16 lg:top-9 left-0 lg:-left-4 w-24 h-24 lg:w-28 lg:p-3 md:p-0 lg:h-24 rounded-2xl bg-[#ce9479] flex justify-center items-center text-4xl font-bold text-white; /* Example Tailwind utilities */
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                 Messy Play                                 */
+/* -------------------------------------------------------------------------- */
+.messyPlay {
+  @apply my-5 space-y-2 relative;
+}
+
+
+.messyPlay::before {
+  content: "";
+  @apply absolute -z-10 -top-4 lg:-top-5 -left-2 lg:-left-4 w-24 h-24 lg:w-28 lg:p-3 md:p-0 lg:h-24 rounded-2xl lg:rounded-full bg-custom-beige flex justify-center items-center text-4xl font-bold text-white; /* Example Tailwind utilities */
 }

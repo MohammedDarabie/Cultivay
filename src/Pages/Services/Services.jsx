@@ -18,10 +18,20 @@ import fan from "../../assets/Services/Images/06.png";
 import kidPainting from "../../assets/Services/Images/07.png";
 import upper from "../../assets/Services/Icons/upper.svg";
 import lower from "../../assets/Services/Icons/lower.svg";
-// import garden from "../../assets/Services/Images/09.png";
-// import Foam from "../../assets/Services/Images/011.png";
-// import Leather from "../../assets/Services/Images/012.png";
-// import SoltSand from "../../assets/Services/Images/013.png";
+import garden from "../../assets/Services/Images/09.png";
+import Foam from "../../assets/Services/Images/011.png";
+import Leather from "../../assets/Services/Images/012.png";
+import SoltSand from "../../assets/Services/Images/013.png";
+import MessyPlays from "../../assets/Services/Icons/015.svg";
+import Clay from "../../assets/Services/Images/015.png";
+import Cartoon from "../../assets/Services/Images/015.png";
+import Naylon from "../../assets/Services/Images/016.png";
+import Limen from "../../assets/Services/Images/017.png";
+import Mud from "../../assets/Services/Images/018.png";
+import carpet from "../../assets/Services/Icons/019.png";
+import rubber from "../../assets/Services/Images/019.png";
+import paper from "../../assets/Services/Images/020.png";
+import bubbles from "../../assets/Services/Icons/018.svg";
 import "./Services.css";
 import { Link } from "react-router-dom";
 
@@ -380,13 +390,134 @@ const Services = () => {
         </div>
       </div>
       {/* /* -------------------------------- Seprator --------------------------------  */}
-      <div className="h-[50vh]"></div>
+      <div className=" h-[50vh]"></div>
       {/* /* ------------------------------- Wavy Section ------------------------------  */}
       <div className="my-20">
         <img src={upper} />
-        <div className=" bg-[#f5e3bd] h-[100vh]"></div>
+        <div className=" bg-[#f5e3bd] h-[150vh] lg:h-[70vh]">
+          <div className="w-[90%] md:w-[80%] lg:w-[60%] mx-auto flex flex-col lg:flex-row lg:justify-between lg:items-center">
+            {/* Image */}
+            <div className="">
+              <img src={garden} className="shadow-2xl rounded-2xl" />
+            </div>
+            {/* Text Box */}
+            <div>
+              {/* Header Div */}
+              <div className="outdoor">
+                <p className="text-md font-extralight ">
+                  ENTERTAINMENT PROGRAM
+                </p>
+                <h1 className="text-4xl  leading-10 font-extrabold">
+                  Natural Outdoor <br />
+                  Space
+                </h1>
+              </div>
+              {/* TextBox > P */}
+              <div>
+                <p className="leading-8">
+                  Our Natural Outdoor Space is composed of natural <br />
+                  elements and features, allowing children to connect <br />
+                  with nature and experience its inherent beauty and <br />
+                  tranquility. This spaces provides an opportunity to do <br />
+                  recreational activities , and it plays a vital role in <br />
+                  promoting the overall well-being of children.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
         <img src={lower} />
       </div>
+      {/* /* ------------------------------- Messy Play ------------------------------  */}
+      <div className="text-[#5f7766]">
+        {/* Messy Play Div */}
+        <div className="w-[90%] md:w-[80%] lg:w-[60%] mx-auto flex flex-col lg:flex-row justify-between items-center">
+          {/* Textt Section */}
+          <div className="">
+            <div className="messyPlay">
+              <p className="text-md font-extralight ">ENTERTAINMENT PROGRAM</p>
+              <h1 className="text-4xl  leading-10 font-[800]">Messy Play</h1>
+              <img
+                src={MessyPlays}
+                className="absolute -top-24 right-0  lg:-top-[5rem] lg:-left-[6rem]"
+              />
+            </div>
+            <p className="font-semibold leading-9">
+              Messy Play lets kids explore their senses and follow <br />
+              their natural curiosity at all developmental stages. <br />
+              They practice their motor, verbal, and social skills <br />
+              while gaining an understanding of fundamental <br />
+              cognitive ideas
+            </p>
+          </div>
+          {/* Pictures Section */}
+          <div className="flex justify-center space-x-5 flex-1 my-16 lg:my-0">
+            {/* First Pic */}
+            <div className="space-y-5 ">
+              <img src={Foam} alt="" className="shadow-xl" />
+              <p className="pl-8 font-semibold">Foam</p>
+            </div>
+            {/* Second Pic */}
+            <div className="space-y-5">
+              <img src={Leather} className="shadow-xl" />
+              <p className="pl-8 font-semibold">Leather</p>
+            </div>
+            {/* Third Pic */}
+            <div className="space-y-5">
+              <img src={SoltSand} className="shadow-xl" />
+              <p className="pl-8 font-semibold">Solt Sand</p>
+            </div>
+          </div>
+        </div>
+        {/* Material Pictures */}
+        <div className="w-[90%] md:w-[80%] lg:w-[60%] mx-auto flex flex-col lg:flex-row justify-center items-center lg:my-20 space-y-28 lg:space-y-0  space-x-0 lg:space-x-10">
+          <div className=" space-y-8 lg:space-y-5">
+            <img src={Clay} alt="" />
+            <p className="pl-8 font-semibold">Clay</p>
+          </div>
+          <div className="space-y-8 lg:space-y-5">
+            <img src={Cartoon} alt="" />
+            <p className="pl-8 font-semibold">Cartoon</p>
+          </div>
+          <div className="space-y-8 lg:space-y-5">
+            <img src={Naylon} alt="" />
+            <p className="pl-8 font-semibold">Nylon</p>
+          </div>
+          <div className="space-y-8 lg:space-y-5">
+            <img src={Limen} alt="" />
+            <p className="pl-8 font-semibold">Limen</p>
+          </div>
+          <div className="space-y-8 lg:space-y-5">
+            <img src={Mud} alt="" />
+            <p className="pl-8 font-semibold">Mud</p>
+          </div>
+        </div>
+        {/* More Pictures */}
+        <div className="w-[90%] md:w-[80%] lg:w-[60%] mx-auto flex flex-col lg:flex-row justify-between items-center my-20  space-x-0 lg:space-x-10">
+          <div className=" mx-13 fixbackground px-6 py-11 rounded-2xl flex-1 ">
+            <div className="flex  justify-between items-center lg:mx-5  ">
+              <p className="text-xl text-[#efd49b]">
+                An open-ended exploration of the <br /> characteristics of
+                materials
+              </p>
+              <img src={bubbles} />
+            </div>
+          </div>
+          {/* Flex */}
+          <div className="flex justify-between space-x-10 my-10">
+            <div className="space-y-5">
+              <img src={rubber} className="shadow-xl" />
+              <p className="pl-8 font-semibold">Rubber</p>
+            </div>
+            <div className="space-y-5">
+              <img src={paper} className="shadow-xl" />
+              <p className="pl-8 font-semibold">Paper</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* /* ------------------------------- Mud Kitchen ------------------------------  */}
+      
     </div>
   );
 };

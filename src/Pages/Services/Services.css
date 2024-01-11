@@ -4,3 +4,7 @@
   list-style-image: url('../../assets/Services/Icons/arrow.svg');
   margin: auto;
 }
+
+.fixbackground {
+  background-image: url('../../assets/Services/Icons/019.png');
+}
