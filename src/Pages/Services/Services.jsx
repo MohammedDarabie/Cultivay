@@ -28,10 +28,23 @@ import Cartoon from "../../assets/Services/Images/015.png";
 import Naylon from "../../assets/Services/Images/016.png";
 import Limen from "../../assets/Services/Images/017.png";
 import Mud from "../../assets/Services/Images/018.png";
-import carpet from "../../assets/Services/Icons/019.png";
 import rubber from "../../assets/Services/Images/019.png";
 import paper from "../../assets/Services/Images/020.png";
 import bubbles from "../../assets/Services/Icons/018.svg";
+import childrenCooking from "../../assets/Services/Images/021.png";
+import tefal from "../../assets/Services/Icons/021.svg";
+import spot from "../../assets/Services/Icons/023.svg";
+import gym from "../../assets/Services/Icons/027.svg";
+import wave from "../../assets/Services/Icons/wave.svg";
+import plant from "../../assets/Services/Icons/024.png";
+import flower from "../../assets/Services/Images/022.png";
+import last1 from "../../assets/Services/Images/023.png";
+import last2 from "../../assets/Services/Images/024.png";
+import Group776 from "../../assets/Contact/Group776.png";
+import instagram from "../../assets/Contact/instagram.svg";
+import linkedin from "../../assets/Contact/linkedin-circle.svg";
+import mail from "../../assets/Contact/mail.svg";
+import website from "../../assets/Contact/website.svg";
 import "./Services.css";
 import { Link } from "react-router-dom";
 
@@ -398,7 +411,7 @@ const Services = () => {
           <div className="w-[90%] md:w-[80%] lg:w-[60%] mx-auto flex flex-col lg:flex-row lg:justify-between lg:items-center">
             {/* Image */}
             <div className="">
-              <img src={garden} className="shadow-2xl rounded-2xl" />
+              <img src={garden} className="shadow-2xl rounded-3xl" />
             </div>
             {/* Text Box */}
             <div>
@@ -453,18 +466,18 @@ const Services = () => {
           {/* Pictures Section */}
           <div className="flex justify-center space-x-5 flex-1 my-16 lg:my-0">
             {/* First Pic */}
-            <div className="space-y-5 ">
-              <img src={Foam} alt="" className="shadow-xl" />
+            <div className="space-y-5 bg-transparent">
+              <img src={Foam} alt="" className="shadow-xl rounded-[1.8rem]" />
               <p className="pl-8 font-semibold">Foam</p>
             </div>
             {/* Second Pic */}
             <div className="space-y-5">
-              <img src={Leather} className="shadow-xl" />
+              <img src={Leather} className="shadow-xl rounded-[1.8rem]" />
               <p className="pl-8 font-semibold">Leather</p>
             </div>
             {/* Third Pic */}
             <div className="space-y-5">
-              <img src={SoltSand} className="shadow-xl" />
+              <img src={SoltSand} className="shadow-xl rounded-[1.8rem]" />
               <p className="pl-8 font-semibold">Solt Sand</p>
             </div>
           </div>
@@ -506,20 +519,144 @@ const Services = () => {
           {/* Flex */}
           <div className="flex justify-between space-x-10 my-10">
             <div className="space-y-5">
-              <img src={rubber} className="shadow-xl" />
+              <img src={rubber} className="shadow-xl rounded-[1.8rem]" />
               <p className="pl-8 font-semibold">Rubber</p>
             </div>
             <div className="space-y-5">
-              <img src={paper} className="shadow-xl" />
+              <img src={paper} className="shadow-xl rounded-[1.8rem]" />
               <p className="pl-8 font-semibold">Paper</p>
             </div>
           </div>
         </div>
       </div>
       {/* /* ------------------------------- Mud Kitchen ------------------------------  */}
-      
+      <div className="w-[90%] md:w-[80%] lg:w-[60%] mx-auto ">
+        {/* Mud Kitchen  */}
+        <div className="mudKitchen text-[#5f7766]">
+          <p>ENTERTAINMENT PROGRAM</p>
+          <h1 className="text-4xl  leading-10 font-[800]">Mud Kitchen</h1>
+        </div>
+        {/* Pictures */}
+      </div>
+      <div className="">
+        <div className="">
+          <img src={childrenCooking} className="mx-auto" />
+          {/* Muddy Spot */}
+          <div className="relative">
+            <img
+              src={spot}
+              className="absolute lg:top-[-18rem] lg:left-[68rem] w-[46rem]"
+            />
+            <div className=" flex flex-col absolute  lg:top-[-9rem] lg:left-[80rem] space-y-8">
+              <img src={tefal} className="w-[6rem] self-end " />
+              <p className="text-[#efd49b] font-semibold">
+                Mud Kitchen combines role-playing from the <br />
+                indoor and outdoor worlds with cooking and real- <br />
+                life kitchenware into a multi sensory experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* /* ----------------------------- Planting Space -----------------------------  */}
+      <div className="w-[90%] md:w-[80%] lg:w-[60%] mx-auto my-80 lg:my-64">
+        <div className="flex  space-x-5  ">
+          {/* Left Side */}
+          <div className="mudKitchen text-[#5f7766] ">
+            <p>ENTERTAINMENT PROGRAM</p>
+            <h1 className="text-4xl  leading-10 font-[800]">Planting Space</h1>
+            <div className="py-7">
+              <p>
+                Children who have a connection to nature learn about bio <br />
+                diversity, seasonality, and environmental conservation
+              </p>
+            </div>
+          </div>
+
+          {/* Right Side */}
+          <div className="w-[9rem]">
+            <img src={plant} />
+          </div>
+        </div>
+        {/* Image */}
+        <div className="my-12">
+          <img src={flower} className="mx-auto" />
+        </div>
+      </div>
+      {/* /* ----------------------------- Ending Section -----------------------------  */}
+      <div className="w-[90%] md:w-[80%] lg:w-[60%] mx-auto my-30 lg:my-4">
+        <div className="flex  space-x-5  ">
+          {/* Left Side */}
+          <div className="mudKitchen text-[#5f7766] ">
+            <p>ENTERTAINMENT PROGRAM</p>
+            <h1 className="text-4xl  leading-10 font-[800]">
+              Multi-Sensory Gym
+            </h1>
+            <div className="py-7">
+              <p>
+                The sensory gym offers kids a variety of activities to <br />
+                relax and explore. In addition to being enjoyable, the <br />
+                gym promotes independence and improves social and <br />
+                emotional power.
+              </p>
+            </div>
+          </div>
+
+          {/* Right Side */}
+          <div className="w-[9rem]">
+            <img src={gym} />
+          </div>
+        </div>
+      </div>
+      <div className="lg:relative">
+        {/* /* -------------------------------- Pic Side --------------------------------  */}
+        <div className="flex flex-col lg:flex-row space-y-5 lg:space-y-0  space-x-0 lg:space-x-10 lg:absolute  lg:left-[18%] z-20">
+          <img src={last1} className="shadow-2xl rounded-[2rem]" />
+          <img src={last2} className="shadow-2xl rounded-[2rem]" />
+        </div>
+        {/* Waves Side */}
+        <div className="flex flex-col lg:absolute top-0">
+          <img src={wave} className="w-screen hidden lg:block" />
+          <footer className=" -mt-2 flex flex-col md:flex-row bg-custom-green  justify-evenly items-center p-5">
+          <div className="mb-5">
+            <img src={Group776} className="w-40" />
+          </div>
+          <nav className="font-bold grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-x-5  text-white">
+            <a>
+              <img src={mail} alt="Email" className="w-8 h-8 md:w-10 md:h-10" />
+            </a>
+            <a>
+              <img
+                src={website}
+                alt="Email"
+                className="w-8 h-8 md:w-10 md:h-10"
+              />
+            </a>
+            <a>
+              <img
+                src={linkedin}
+                alt="Email"
+                className="w-8 h-8 md:w-10 md:h-10"
+              />
+            </a>
+            <a>
+              <img
+                src={instagram}
+                alt="Email"
+                className="w-8 h-8 md:w-10 md:h-10"
+              />
+            </a>
+          </nav>
+        </footer>
+        </div>
+      </div>
     </div>
   );
 };
 
 export default Services;
+
+// Start Ups Increasing
+// Students Has high percentage of employment after graduation'
+// Tech Markets Expanding Rapidly
+// Internship

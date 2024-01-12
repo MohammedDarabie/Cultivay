@@ -1,10 +1,13 @@
-
-
 .custom-bullet-list {
-  list-style-image: url('../../assets/Services/Icons/arrow.svg');
+  list-style-image: url("../../assets/Services/Icons/arrow.svg");
   margin: auto;
 }
 
 .fixbackground {
-  background-image: url('../../assets/Services/Icons/019.png');
+  background-image: url("../../assets/Services/Icons/019.png");
+}
+
+.muddySpot {
+  background-image: url("../../assets/Services/Icons/023.svg");
+  background-repeat: no-repeat;
 }
