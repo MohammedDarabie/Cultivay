@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 import logo from "../../../../assets/Contact/Group541.png";
-import backgroundImage from "../../../../assets/HomePage/Home1.png";
+import backgroundImage from "../../../../assets/HomePage/home1.png";
 const Landing1 = () => {
   return (
     <div
