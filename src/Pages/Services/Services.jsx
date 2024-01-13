@@ -83,7 +83,7 @@ const Services = () => {
                 to="/services"
                 className="hover:text-gray-300 block text-center md:inline"
               >
-                PROGRAMS
+                SERVICES
               </Link>
             </li>
             <li>

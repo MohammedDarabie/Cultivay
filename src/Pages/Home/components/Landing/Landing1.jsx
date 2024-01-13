@@ -26,7 +26,7 @@ const Landing1 = () => {
           <Link to="/services" className="hover:text-blue-600">
             SERVICES
           </Link>
-          <Link to="/who-we-are" className="hover:text-blue-600">
+          <Link to="/whoweare" className="hover:text-blue-600">
             WHO WE ARE
           </Link>
           <Link to="/contact" className="hover:text-blue-600">
