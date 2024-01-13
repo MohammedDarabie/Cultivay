@@ -16,7 +16,7 @@ const Landing1 = () => {
           {/* Place your logo here */}
           <img src={logo} alt="Logo" className="h-12" />
         </div>
-        <nav className="flex flex-col lg:flex-row gap-y-2 lg:gap-4  font-extrabold text-white">
+        <nav className="flex flex-col lg:flex-row gap-y-2 lg:gap-4  font-extrabold text-custom-green">
           <Link to="/" className="hover:text-blue-600">
             HOME
           </Link>
