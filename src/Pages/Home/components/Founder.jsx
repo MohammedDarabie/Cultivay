@@ -5,7 +5,7 @@ const Founder = () => {
     <div>
       <img src={wave} />
       <div className=" bg-[#7a9280] pb-24">
-        <div className="flex flex-col-reverse space-y-12 lg:space-y-0 lg:flex-row gap-x-0 lg:gap-x-[9rem] w-[90%] md:w-[80%] lg:w-[60%] mx-auto justify-center items-center">
+        <div className="flex flex-col-reverse space-y-12 lg:space-y-0 lg:flex-row gap-x-0 lg:gap-x-[9rem] w-[90%] md:w-[80%] lg:w-[70%] mx-auto justify-center items-center">
           {/* Left Div */}
           <div className="space-y-5">
             <h1 className="font-bold text-5xl text-custom-beige">
@@ -26,13 +26,19 @@ const Founder = () => {
               that our services and activities meet their specific needs, <br />
               empower them, and help them achieve continuous growth.
             </p>
-            <button className="px-12 py-5 bg-custom-beige text-custom-green font-extrabold rounded-3xl shadow-xl hover:shadow-2xl">
-              Connect With Afnan
-            </button>
+            <a
+              href="https://wa.me/966552220151"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="px-12 py-5 my-5 bg-custom-beige text-custom-green font-extrabold rounded-3xl shadow-xl hover:shadow-2xl">
+                Connect With Afnan
+              </button>
+            </a>
           </div>
           {/* Right Div */}
           <div>
-            <img src={holdingArms} className="mb-12 lg:mb-0 w-[30rem]" />
+            <img src={holdingArms} className="mb-12 lg:mb-0 " />
           </div>
         </div>
       </div>

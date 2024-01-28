@@ -7,6 +7,7 @@ import icon11 from "../../../assets/HomePage/about/11.svg";
 import icon12 from "../../../assets/HomePage/about/12.svg";
 import icon21 from "../../../assets/HomePage/about/21.svg";
 import icon22 from "../../../assets/HomePage/about/22.svg";
+import { Link } from "react-router-dom";
 
 const AboutSection = () => {
   return (
@@ -85,7 +86,9 @@ const AboutSection = () => {
               </p>
             </div>
             <div className="mx-auto mt-5">
-                <button className="bg-custom-beige px-12 py-5 rounded-3xl font-bold shadow-xl hover:shadow-2xl">Learn More</button>
+              <button className="bg-custom-beige px-12 py-5 rounded-3xl font-bold shadow-xl hover:shadow-2xl">
+                <Link to={"/services"}>Learn More</Link>
+              </button>
             </div>
           </div>
         </div>

@@ -11,6 +11,7 @@ import messy from "../../../assets/HomePage/messy.svg";
 import mud from "../../../assets/HomePage/mud.svg";
 import green from "../../../assets/HomePage/greenHouse.svg";
 import homeendingpic from "../../../assets/HomePage/1.png";
+import { Link } from "react-router-dom";
 // import mudHouse from '../../../assets/HomePage/mudHouse.png'
 const OurServices = () => {
   return (
@@ -57,7 +58,7 @@ const OurServices = () => {
               <img src={sensory} />
               <h1 className="font-extrabold">Sensory Integration</h1>
               <button className="font-bold px-5 py-3 bg-custom-beige rounded-xl shadow-2xl">
-                Read More
+                <Link to={"/services"}>Read More</Link>
               </button>
             </div>
             {/* First */}
@@ -65,7 +66,7 @@ const OurServices = () => {
               <img src={physical} />
               <h1 className="font-extrabold">Physical Therapy</h1>
               <button className="font-bold px-5 py-3 bg-custom-green text-custom-beige rounded-xl shadow-2xl">
-                Read More
+                <Link to={"/services"}>Read More</Link>
               </button>
             </div>
             {/* First */}
@@ -73,7 +74,7 @@ const OurServices = () => {
               <img src={occupational} />
               <h1 className="font-extrabold">Occupational Therapy</h1>
               <button className="font-bold px-5 py-3 bg-white rounded-xl shadow-2xl">
-                Read More
+                <Link to={"/services"}>Read More</Link>
               </button>
             </div>
             {/* First */}
@@ -81,7 +82,7 @@ const OurServices = () => {
               <img src={speech} />
               <h1 className="font-extrabold">Speech and Swallowing</h1>
               <button className="px-5 py-3 font-bold bg-custom-orange text-custom-beige rounded-xl shadow-2xl">
-                Read More
+                <Link to={"/services"}>Read More</Link>
               </button>
             </div>
           </div>

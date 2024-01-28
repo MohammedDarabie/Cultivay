@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import logo from "../../assets/Contact/Group541.png";
 import landingLogo from "../../assets/Services/Icons/01.svg";
 import Img5 from "../../assets/Services/Icons/05.svg";
@@ -50,6 +50,10 @@ import { Link } from "react-router-dom";
 
 const Services = () => {
   const [isOpen, setIsOpen] = useState(false);
+
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
 
   return (
     <div>
@@ -151,7 +155,10 @@ const Services = () => {
         </div>
       </div>
       {/*------------------------------------- Sensory Integration -------------------------------------*/}
-      <div className="secondryContainer flex flex-col lg:flex-row items-center space-y-10 lg:space-y-0 lg:justify-between  ">
+      <div
+        id="sensory"
+        className="secondryContainer flex flex-col lg:flex-row items-center space-y-10 lg:space-y-0 lg:justify-between  "
+      >
         {/* Left Side Div */}
         <div className="text-custom-orange">
           {/* Header Div */}
@@ -192,7 +199,7 @@ const Services = () => {
         </div>
       </div>
       {/*------------------------------------- Physical Therapy -------------------------------------*/}
-      <div className="physicalDiv">
+      <div id="physical" className="physicalDiv">
         <div className="physicalInnerDiv">
           {/* Header */}
           <div className="h-1/3 flex items-center text-custom-beige">
@@ -248,7 +255,10 @@ const Services = () => {
         </div>
       </div>
       {/*------------------------------------- Occupational Therapy -------------------------------------*/}
-      <div className="occupational flex flex-col lg:flex-row items-center space-y-10 lg:space-y-0 lg:justify-between  ">
+      <div
+        id="occupational"
+        className="occupational flex flex-col lg:flex-row items-center space-y-10 lg:space-y-0 lg:justify-between  "
+      >
         {/* Left Side Div */}
         <div className="text-custom-orange">
           {/* Header Div */}
@@ -291,7 +301,10 @@ const Services = () => {
         </div>
       </div>
       {/*------------------------------------- Speech+Swallowing Therapy -------------------------------------*/}
-      <div className="Speech flex flex-col lg:flex-row items-center space-y-10 lg:space-y-0 lg:justify-between my-20 lg:my-60 ">
+      <div
+        id="speech"
+        className="Speech flex flex-col lg:flex-row items-center space-y-10 lg:space-y-0 lg:justify-between my-20 lg:my-60 "
+      >
         {/* Left Side Div */}
         <div className=" w-full lg:w-2/3 flex justify-center lg:justify-start ">
           <img src={dentist} className="" />
@@ -618,36 +631,40 @@ const Services = () => {
         <div className="flex flex-col lg:absolute top-0">
           <img src={wave} className="w-screen hidden lg:block" />
           <footer className=" -mt-2 flex flex-col md:flex-row bg-custom-green  justify-evenly items-center p-5">
-          <div className="mb-5">
-            <img src={Group776} className="w-40" />
-          </div>
-          <nav className="font-bold grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-x-5  text-white">
-            <a>
-              <img src={mail} alt="Email" className="w-8 h-8 md:w-10 md:h-10" />
-            </a>
-            <a>
-              <img
-                src={website}
-                alt="Email"
-                className="w-8 h-8 md:w-10 md:h-10"
-              />
-            </a>
-            <a>
-              <img
-                src={linkedin}
-                alt="Email"
-                className="w-8 h-8 md:w-10 md:h-10"
-              />
-            </a>
-            <a>
-              <img
-                src={instagram}
-                alt="Email"
-                className="w-8 h-8 md:w-10 md:h-10"
-              />
-            </a>
-          </nav>
-        </footer>
+            <div className="mb-5">
+              <img src={Group776} className="w-40" />
+            </div>
+            <nav className="font-bold grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-x-5  text-white">
+              <a>
+                <img
+                  src={mail}
+                  alt="Email"
+                  className="w-8 h-8 md:w-10 md:h-10"
+                />
+              </a>
+              <a>
+                <img
+                  src={website}
+                  alt="Email"
+                  className="w-8 h-8 md:w-10 md:h-10"
+                />
+              </a>
+              <a>
+                <img
+                  src={linkedin}
+                  alt="Email"
+                  className="w-8 h-8 md:w-10 md:h-10"
+                />
+              </a>
+              <a>
+                <img
+                  src={instagram}
+                  alt="Email"
+                  className="w-8 h-8 md:w-10 md:h-10"
+                />
+              </a>
+            </nav>
+          </footer>
         </div>
       </div>
     </div>

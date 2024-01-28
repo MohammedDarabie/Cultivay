@@ -1,5 +1,5 @@
 import Landing from "../../assets/About/banner-image.png";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Logo from "../../assets/Contact/Group541.png";
 import Menu from "../../assets/Contact/menu.svg";
 import { Link } from "react-router-dom";
@@ -23,6 +23,9 @@ import mail from "../../assets/Contact/mail.svg";
 import website from "../../assets/Contact/website.svg";
 const AboutUs = () => {
   const [hidden, setHidden] = useState(false);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const toggleMenu = () => {
     setHidden(!hidden);
   };

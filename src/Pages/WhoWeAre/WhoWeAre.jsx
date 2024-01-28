@@ -14,6 +14,9 @@ import website from "../../assets/Contact/website.svg";
 import { Link } from "react-router-dom";
 const WhoWeAre = () => {
   const [hidden, setHidden] = useState(false);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
   const toggleMenu = () => {
     setHidden(!hidden);
   };
@@ -61,14 +64,14 @@ const WhoWeAre = () => {
       <main className="mb-12">
         <div className="w-[90%] mx-auto lg:space-y-36">
           {/* First Div */}
-          <div className="flex flex-col lg:flex-row items-center space-x-0 lg:space-x-36 text-[#7a9280] w-[80%] mx-auto">
+          <div className="flex flex-col lg:flex-row items-center space-x-0 lg:space-x-36 text-[#7a9280] w-[80%] mx-auto border-b-4 border-[#7a9280] pb-24">
             <img src={afnanPic}></img>
             <div>
               <div className="space-y-5 my-5">
-                <h1 className=" text-4xl lg:text-7xl font-bold">
+                <h1 className=" text-4xl lg:text-7xl font-extrabold">
                   Afnan Alamoudi
                 </h1>
-                <p className="text-xl lg:text-2xl font-semibold">
+                <p className="text-xl lg:text-2xl font-bold">
                   Hello, Im Afnan Alamoudi, Aboudis Mother,<br></br> and the
                   founder of Cultivay
                 </p>
@@ -99,8 +102,10 @@ const WhoWeAre = () => {
           <div className="flex flex-col lg:flex-row items-center space-x-0 lg:space-x-36 text-[#7a9280] w-[80%] mx-auto">
             <div className="pb-5 md:pb-0">
               <div className="space-y-5 my-5">
-                <h1 className="text-4xl lg:text-7xl font-bold">Nour Emad</h1>
-                <p className="text-xl lg:text-2xl font-semibold">
+                <h1 className=" text-4xl lg:text-7xl font-extrabold">
+                  Nour Emad
+                </h1>
+                <p className="text-xl lg:text-2xl font-bold">
                   Hello, Im Nour Emad, a Speech and Swallowing pathologist and
                   the clinical director at Cultivay.
                 </p>
