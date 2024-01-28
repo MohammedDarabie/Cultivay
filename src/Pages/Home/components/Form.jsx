@@ -32,7 +32,7 @@ const Form = () => {
           </h1>
           <form onSubmit={handleSubmit} className=" my-10 lg:w-[60%]">
             {/*----------------------------------------------- First and Last Name -----------------------------------------------*/}
-            <div className="flex flex-col lg:flex-row justify-between">
+            <div className="flex flex-col lg:flex-row justify-between space-x-7">
               <div className="mb-4">
                 <label
                   htmlFor="firstName"
@@ -67,7 +67,7 @@ const Form = () => {
               </div>
             </div>
             {/*----------------------------------------------- Phone and Email -----------------------------------------------*/}
-            <div className="flex flex-col lg:flex-row justify-between">
+            <div className="flex flex-col lg:flex-row justify-between space-x-7">
               <div className="mb-4">
                 <label
                   htmlFor="phone"
