@@ -1,4 +1,4 @@
-import InterventionProgramPic from "../../../assets/HomePage/intervention.png";
+import InterventionProgramPic from "../../../assets/HomePage/intervention.jpeg";
 import cultivayBg from "../../../assets/HomePage/cultivayBackground.svg";
 import sensory from "../../../assets/HomePage/sensory.svg";
 import speech from "../../../assets/HomePage/speech.svg";
