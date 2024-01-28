@@ -46,8 +46,8 @@ const OurServices = () => {
             </p>
           </div>
           {/* Photo Side */}
-          <div>
-            <img src={InterventionProgramPic} />
+          <div className="overflow-hidden">
+            <img src={InterventionProgramPic} className="h-[25rem] rounded-r-xl " />
           </div>
         </div>
         {/* Therapy Types */}
