@@ -33,7 +33,7 @@ const AboutSection = () => {
           </p>
         </div>
         {/*----------------------------------------------- What and Why Cultivay -----------------------------------------------*/}
-        <div className="flex flex-col lg:flex-row justify-evenly w-[90%] lg:w-[50%] mx-auto mb-64 space-y-12 lg:space-y-0">
+        <div className="flex flex-col lg:flex-row justify-evenly space-x-0 lg:space-x-24   w-[90%] lg:w-[50%] mx-auto mb-64 space-y-12 lg:space-y-0">
           {/* Left Side */}
           <div>
             {/* First Div */}
